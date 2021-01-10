@@ -1,0 +1,64 @@
+body
+{
+background-color: #030303;
+color:#fdfffc;
+border:43px solid #0de189;
+border-top: 0px;
+}
+h1
+{
+letter-spacing: 5px;
+font-family: 'Almendra SC', serif;
+color: #ff9608;
+}
+
+
+
+div.at-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.at-item {
+  color: #0de189;
+  animation-name: focus-in-contract;
+  animation-duration: 2.8s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+@keyframes focus-in-contract {
+  0%{
+    letter-spacing: 1em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100%{
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+
+p
+{
+  font-family: 'Big Shoulders Stencil Text', cursive;
+font-family: 'Source Serif Pro', serif;
+}
+
+#sub
+{background-color: #ff9608;
+  height: 42px;
+  width: 170px;
+  border-radius: 25px;
+  font-size: 23px;
+  margin-bottom: 28px;
+  margin-top: 28px;
+}
+h2
+{
+  color:#0de189;
+}
